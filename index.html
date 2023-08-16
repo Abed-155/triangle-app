@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="triangle-area">
+        <h1>Area of Triangle</h1>
+        <div class="area-box">
+            <h3>Right Angle Triangle</h3>
+            <div class="inp-group-container">
+                <div class="inp-group">
+                    <label for="base">Base</label>
+                    <input class="inp-field" type="number" name="base" id="base" min="1" placeholder="base...">
+                </div>
+                <div class="inp-group">
+                    <label for="hight">Hight</label>
+                    <input class="inp-field" type="number" name="hight" id="hight" min="1" placeholder="hight...">
+                </div>
+            </div>
+            <button id="calc-btn">Calculate</button>
+            <div class="output-field">
+                <div class="formula">
+                    <div class="formula-name">
+                        <span>Formula</span>
+                    </div>
+                    <div class="formula-description">
+                        <p>We know that, the formula of Right Angle Triangle is Base times Hight</p>
+                    </div>
+                </div>
+                <div class="result-field">
+                    <div>
+                        <div>
+                            <p>Base: <span class="output-base"></span></p>
+                        </div>
+                        <div>
+                            <p>Hight: <span class="output-hight"></span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Area: <span class="result"></span></p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.triangle-area{
+    width: 400px;
+    margin: 1rem auto;
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.area-box{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.inp-group-container{
+    display: flex;
+    gap: .5rem;
+    width: 100%;
+}
+.inp-field{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+}
+#calc-btn{
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: #222;
+    color: #ddd;
+    border-radius: .25rem;
+}
+.formula{
+    display: flex;
+}
+.formula-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: #ddd;
+    padding: .5rem;
+    border-radius: .25rem 0 0 .25rem;
+}
+.formula-description{
+    background-color: #fff;
+    padding: .25rem;
+    border-radius: 0 .25rem .25rem 0;
+}
+
+.output-field{
+    display: none;
+}
+.result-field{
+    padding: .5rem;
+    background-color: #fff;
+    margin-top: .5rem;
+    border-radius: .25rem;
+}
